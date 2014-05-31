@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+       <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/mainlayoutlinear"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NoteLabel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:inputType="text"
+        android:ems="10" >
+
+        <requestFocus android:focusable="true" />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/buttonTakePicture"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TakePicture"/>
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Save" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+ 
+</LinearLayout>
+</ScrollView>
+ </LinearLayout>

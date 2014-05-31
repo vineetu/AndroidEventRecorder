@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PhotoCaptureExample!</string>
+    <string name="app_name">Photo Capture Example</string>
+    <string name="NoteLabel">Note</string>
+    <string name="NoteInput"/>
+    <string name="TakePicture">Take Picture</string>
+    <string name="Save">Save</string>
+    <string name="path"/>
+</resources>
